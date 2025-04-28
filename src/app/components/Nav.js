@@ -32,6 +32,9 @@ function Nav() {
           <li>
             <Link href="/contact"> Contact</Link>
             </li>
+            <li>
+            <Link href="/Myskill"> Myskill</Link>
+            </li>
         </ul>
 
         {/* Mobile Menu */}
@@ -49,6 +52,9 @@ function Nav() {
          </li>
        <li onClick={() => setOpen(false)}>
          <Link href="/contact"> Contact</Link>
+         </li>
+         <li onClick={() => setOpen(false)}>
+         <Link href="/Myskill"> Myskill</Link>
          </li>
         </ul>
 
